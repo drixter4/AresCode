@@ -7019,7 +7019,6 @@ header .navbar.mini-header .navbar-brand img {
 header .navbar-brand {
   margin-right: 0;
   vertical-align: middle;
-  padding: 30px 0;
   display: inline-block;
   font-size: 0;
 }
@@ -7034,7 +7033,8 @@ header .navbar-brand .alt-logo, header .navbar-brand .mobile-logo {
   width: 0;
 }
 header .navbar-brand img {
-  min-height: 3.5vw;
+  min-height: 4vw;
+
 }
 header .header-top-bar {
   position: fixed;
@@ -10384,7 +10384,7 @@ blockquote footer {
   color: var(--base-color);
 }
 .btn.btn-dark-gray {
-  background-color: #8B9466;
+  background-color: #1509c2;
   color: var(--white);
 }
 .btn.btn-dark-gray:hover, .btn.btn-dark-gray:active {
@@ -19247,7 +19247,7 @@ footer.big-footer {
   padding-bottom: 140px;
 }
 footer .footer-logo img {
-  max-height: 30px;
+  min-height: 100px;
 }
 footer ul {
   padding: 0;
@@ -19333,4 +19333,11 @@ footer .footer-navbar .nav-item:last-child a {
 .contact-cards{
   z-index: 51 !important;
   position: relative !important;
+}
+/* Igualar la altura del bloque blanco de texto */
+.services-text-block {
+  min-height: 250px;  /* Ajustable */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
