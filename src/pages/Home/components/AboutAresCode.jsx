@@ -1,6 +1,6 @@
 export default function AboutAresCode() {
     return (
-        <section className="pb-8 md-pb-17 xs-pb-28">
+        <section className="pb-8 md-pb-17 xs-pb-28" id="sobre-arescode">
             <div className="container">
                 <div className="row align-items-center justify-content-center">
 
@@ -9,10 +9,12 @@ export default function AboutAresCode() {
                         className="col-xl-5 col-lg-6 col-md-9 md-mb-50px text-center text-lg-start"
                         data-anime='{"el":"childs","translateY":[50,0],"opacity":[0,1],"duration":600,"delay":0,"staggervalue":300,"easing":"easeOutQuad"}'
                     >
-                        <span className="bg-solitude-blue text-uppercase fs-20 alt-font fw-600 text-base-color lh-40 sm-lh-55 border-radius-100px d-inline-block mb-25px">
+                        {/* Nuevo H2 semántico */}
+                        <h2 className="bg-solitude-blue text-uppercase fs-20 alt-font fw-600 text-base-color lh-40 sm-lh-55 border-radius-100px d-inline-block mb-25px">
                             Sobre AresCode
-                        </span>
+                        </h2>
 
+                        {/* H3 real del contenido */}
                         <h3 className="alt-font text-dark-gray fw-600 ls-minus-1px mb-20px sm-w-85 xs-w-100 mx-auto">
                             Soluciones digitales inteligentes y a medida.
                         </h3>
@@ -27,7 +29,6 @@ export default function AboutAresCode() {
                         <div className="d-flex flex-row justify-content-center justify-content-lg-start align-items-center mt-35px">
                             <div className="w-120px me-25px flex-shrink-0">
                                 <div className="chart-percent">
-                                    {/* Este componente requiere tu plugin de pie chart */}
                                     <span
                                         className="pie-chart-style-01 d-flex align-items-center justify-content-center text-center"
                                         data-line-width="7"
@@ -44,21 +45,45 @@ export default function AboutAresCode() {
 
                             <div className="text-start">
                                 <span className="fs-20 lh-28 text-dark-gray alt-font fw-500 d-inline-block w-70 xs-w-100">
-                                    Crecimiento de clientes en los
+                                    Crecimiento de clientes en los{" "}
                                     <span className="text-decoration-line-bottom-medium fw-600 text-base-color">
-                                        {" "}últimos 2 años.
+                                        últimos 2 años.
                                     </span>
                                 </span>
                             </div>
                         </div>
                     </div>
 
-                 <div class="col-xl-6 col-lg-6 offset-xl-1 position-relative">
-                        <div class="text-end w-80 md-w-75 ms-auto" data-animation-delay="500" data-shadow-animation="true" data-bottom-top="transform: translateY(50px)" data-top-bottom="transform: translateY(-50px)">
-                            <img src="images\representaciones-de-ui-y-ux-con-laptop.webp" alt="" class="border-radius-5px"/>
+                    {/* Imagen */}
+                    <div className="col-xl-6 col-lg-6 offset-xl-1 position-relative">
+                        <div
+                            className="text-end w-80 md-w-75 ms-auto"
+                            data-animation-delay="500"
+                            data-shadow-animation="true"
+                            data-bottom-top="transform: translateY(50px)"
+                            data-top-bottom="transform: translateY(-50px)"
+                        >
+                            <img
+                                src="/images/representaciones-de-ui-y-ux-con-laptop.webp"
+                                alt="Diseño UI/UX en computadora"
+                                className="border-radius-5px"
+                                loading="lazy"
+                            />
                         </div>
-                        <div class="w-60 md-w-50 xs-w-55 overflow-hidden position-absolute left-15px bottom-minus-50px" data-shadow-animation="true" data-animation-delay="500" data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)">
-                            <img src="images\collage-de-fondo-de-programacion.webp" alt="" class="border-radius-5px box-shadow-quadruple-large" />
+
+                        <div
+                            className="w-60 md-w-50 xs-w-55 overflow-hidden position-absolute left-15px bottom-minus-50px"
+                            data-shadow-animation="true"
+                            data-animation-delay="500"
+                            data-bottom-top="transform: translateY(-50px)"
+                            data-top-bottom="transform: translateY(50px)"
+                        >
+                            <img
+                                src="/images/collage-de-fondo-de-programacion.webp"
+                                alt="Código y programación"
+                                className="border-radius-5px box-shadow-quadruple-large"
+                                loading="lazy"
+                            />
                         </div>
                     </div>
 

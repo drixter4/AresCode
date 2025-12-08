@@ -70,6 +70,11 @@ header .navbar-brand img {
   width: 3vw !important;
   aspect-ratio: 7 / 10 !important;
 }
+header .navbar-brand {
+ margin-left: 2vw;
+}
+
+
 
 /* Estilos exclusivos para móvil */
 @media (max-width: 768px) {
