@@ -9,7 +9,7 @@ export default function AboutAresCode() {
                         className="col-xl-5 col-lg-6 col-md-9 md-mb-50px text-center text-lg-start"
                         data-anime='{"el":"childs","translateY":[50,0],"opacity":[0,1],"duration":600,"delay":0,"staggervalue":300,"easing":"easeOutQuad"}'
                     >
-                        <span className="bg-solitude-blue text-uppercase fs-13 ps-25px pe-25px alt-font fw-600 text-base-color lh-40 sm-lh-55 border-radius-100px d-inline-block mb-25px">
+                        <span className="bg-solitude-blue text-uppercase fs-20 alt-font fw-600 text-base-color lh-40 sm-lh-55 border-radius-100px d-inline-block mb-25px">
                             Sobre AresCode
                         </span>
 
@@ -55,10 +55,10 @@ export default function AboutAresCode() {
 
                  <div class="col-xl-6 col-lg-6 offset-xl-1 position-relative">
                         <div class="text-end w-80 md-w-75 ms-auto" data-animation-delay="500" data-shadow-animation="true" data-bottom-top="transform: translateY(50px)" data-top-bottom="transform: translateY(-50px)">
-                            <img src="images\representaciones-de-ui-y-ux-con-laptop.jpg" alt="" class="border-radius-5px"/>
+                            <img src="images\representaciones-de-ui-y-ux-con-laptop.webp" alt="" class="border-radius-5px"/>
                         </div>
                         <div class="w-60 md-w-50 xs-w-55 overflow-hidden position-absolute left-15px bottom-minus-50px" data-shadow-animation="true" data-animation-delay="500" data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)">
-                            <img src="images\collage-de-fondo-de-programacion.jpg" alt="" class="border-radius-5px box-shadow-quadruple-large" />
+                            <img src="images\collage-de-fondo-de-programacion.webp" alt="" class="border-radius-5px box-shadow-quadruple-large" />
                         </div>
                     </div>
 

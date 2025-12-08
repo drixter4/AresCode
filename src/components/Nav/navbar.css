@@ -63,3 +63,18 @@
 
 
 
+
+
+/* Estilos por defecto (escritorio / tablets) */
+header .navbar-brand img {
+  width: 3vw !important;
+  aspect-ratio: 7 / 10 !important;
+}
+
+/* Estilos exclusivos para móvil */
+@media (max-width: 768px) {
+  header .navbar-brand img {
+    width: 10vw !important;
+    aspect-ratio: 7 / 10 !important;
+  }
+}

@@ -5,31 +5,31 @@ const ServicesSection = () => {
     {
       title: "Landing Page",
       desc: "Tu puerta de entrada digital. Diseñada para captar la atención de forma inmediata y convertir visitantes en clientes.",
-      img: "/images/landing.png",
+      img: "/images/landing.webp",
       link: "#"
     },
     {
       title: "Tienda en línea",
       desc: "Simplifica la experiencia de compra: navegación fluida, productos claros y pagos seguros.",
-      img: "/images/shop.png",
+      img: "/images/shop.webp",
       link: "#"
     },
     {
       title: "Plataforma Web",
       desc: "Versátil, funcional y hecha a la medida. Impulsa tu presencia digital con una plataforma profesional.",
-      img: "/images/plataforma.png",
+      img: "/images/plataforma.webp",
       link: "#"
     },
     {
       title: "Web Hosting",
       desc: "Alojamiento rápido, seguro y confiable para tu sitio. Rendimiento óptimo y soporte técnico especializado.",
-      img: "/images/hosting.png",
+      img: "/images/hosting.webp",
       link: "#"
     },
     {
       title: "Dominio y Mailing",
       desc: "Identidad digital profesional con dominio propio y correo institucional personalizado.",
-      img: "/images/mailing.jpg",
+      img: "/images/mailing.webp",
       link: "#"
     },
   ];

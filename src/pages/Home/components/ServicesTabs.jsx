@@ -56,7 +56,7 @@ export default function ServicesTabs() {
                             <div className="tab-pane fade show active" id="tab_dev1">
                                 <div className="row align-items-center">
                                     <div className="col-md-6 offset-xl-1 sm-mb-30px">
-                                        <img src="images\vista-superior-del-pirata-informatico-irreconocible-que-realiza-un-ciberataque-por-la-noche.jpg" alt="" className="border-radius-6px w-100" />
+                                        <img src="images\vista-superior-del-pirata-informatico-irreconocible-que-realiza-un-ciberataque-por-la-noche.webp" alt="" className="border-radius-6px w-100" />
                                     </div>
 
                                     <div className="col-xl-4 col-md-6 offset-xl-1 text-center text-md-start">
@@ -81,7 +81,7 @@ export default function ServicesTabs() {
                             <div className="tab-pane fade" id="tab_dev2">
                                 <div className="row align-items-center">
                                     <div className="col-md-6 offset-xl-1 sm-mb-30px">
-                                        <img src="images\tecnologia-y-aplicacion-de-la-luminescencia.jpg" alt="" className="border-radius-6px w-100" />
+                                        <img src="images\tecnologia-y-aplicacion-de-la-luminescencia.webp" alt="" className="border-radius-6px w-100" />
                                     </div>
 
                                     <div className="col-xl-4 col-md-6 offset-xl-1 text-center text-md-start">
@@ -106,7 +106,7 @@ export default function ServicesTabs() {
                             <div className="tab-pane fade" id="tab_dev3">
                                 <div className="row align-items-center">
                                     <div className="col-md-6 offset-xl-1 sm-mb-30px">
-                                        <img src="images\vista-de-cerca-de-hacker.jpg" alt="" className="border-radius-6px w-100" />
+                                        <img src="images\vista-de-cerca-de-hacker.webp" alt="" className="border-radius-6px w-100" />
                                     </div>
 
                                     <div className="col-xl-4 col-md-6 offset-xl-1 text-center text-md-start">

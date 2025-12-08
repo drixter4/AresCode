@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Swal from "sweetalert2";
+import emailjs from "emailjs-com";
 import "sweetalert2/dist/sweetalert2.min.css";
 
 export default function ContactSection() {
@@ -13,8 +14,8 @@ export default function ContactSection() {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
 
-    const handleSend = () => {
-        // Validación simple
+    const handleSend = async () => {
+        // Validación
         if (!formData.name.trim() || !formData.email.trim()) {
             Swal.fire({
                 icon: "error",
@@ -24,29 +25,52 @@ export default function ContactSection() {
             return;
         }
 
-        // Aquí puedes enviar los datos a tu API
-        console.log("Formulario enviado:", formData);
-
-        // SweetAlert de éxito
         Swal.fire({
-            icon: "success",
-            title: "¡Mensaje enviado!",
-            text: "Gracias por contactarnos, nos pondremos en contacto contigo pronto.",
-            confirmButtonText: "Aceptar",
+            title: "Enviando...",
+            text: "Por favor espera",
+            allowOutsideClick: false,
+            didOpen: () => Swal.showLoading(),
         });
 
-        // Limpiar formulario
-        setFormData({ name: "", email: "", message: "" });
+        try {
+            await emailjs.send(
+                process.env.REACT_APP_EMAILJS_SERVICE_ID,
+                process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+                {
+                    name: formData.name,
+                    email: formData.email,
+                    message: formData.message,
+                },
+                process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+            );
+
+            Swal.fire({
+                icon: "success",
+                title: "¡Mensaje enviado!",
+                text: "Gracias por contactarnos, te responderemos pronto.",
+                confirmButtonText: "Aceptar",
+            });
+
+            setFormData({ name: "", email: "", message: "" });
+
+        } catch (error) {
+            console.error("EmailJS error:", error);
+            Swal.fire({
+                icon: "error",
+                title: "Algo salió mal",
+                text: "No se pudo enviar el correo. Intenta más tarde.",
+            });
+        }
     };
 
     return (
-        <section className="" id="contacto">
+        <section id="contacto">
             <div className="container-fluid p-0">
                 <div className="row g-0">
 
                     {/* Imagen */}
                     <div className="col-xl-6 col-lg-7 cover-background md-h-500px sm-h-400px md-mb-50px"
-                        style={{ backgroundImage: "url('/images/contact.png')" }}>
+                        style={{ backgroundImage: "url('/images/contact.webp')" }}>
                     </div>
 
                     {/* Formulario */}

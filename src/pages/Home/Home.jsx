@@ -8,6 +8,7 @@ import ServicesTabs from "./components/ServicesTabs";
 import ServicesSection from "./components/ServicesSection";
 import HeroAres from "./components/Hero";
 import ContactSection from "./components/Contact";
+import WhatsAppFloatButton from "../../components/WhatsappButton/WhatsAppFloatButton";
 
 
 export default function Home() {
@@ -21,7 +22,7 @@ export default function Home() {
       <ServicesSection />
       <ContactSection />
       <HeroAres />
-
+      <WhatsAppFloatButton />
       <Footer />
     </>
   );

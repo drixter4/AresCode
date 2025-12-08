@@ -6833,11 +6833,12 @@ header .navbar [class*=col-] .navbar-nav .nav-item a {
   align-items: center;
 }
 header .container-fluid {
+  padding: 0;
   padding-left: 45px;
   padding-right: 45px;
 }
 header.sticky .navbar-brand {
-  padding: 20px 0;
+  padding: 5px 0;
 }
 header.sticky .navbar {
   -webkit-transform: translateY(-100%);
@@ -7033,8 +7034,7 @@ header .navbar-brand .alt-logo, header .navbar-brand .mobile-logo {
   width: 0;
 }
 header .navbar-brand img {
-  min-height: 4vw;
-
+  width: 1vw;
 }
 header .header-top-bar {
   position: fixed;

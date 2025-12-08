@@ -13,37 +13,34 @@ export default function Header() {
                             className="cover-background position-absolute top-0 start-0 w-100 h-100"
                             data-swiper-parallax="500"
                             style={{
-                                backgroundImage: "url('/images/header1.jpg')",
+                                backgroundImage: "url('/images/header1.webp')",
                                 backgroundSize: "cover",
                                 backgroundPosition: "center",
                                 backgroundRepeat: "no-repeat"
                             }}
                         >
-                            <div className="opacity-light bg-gradient-sherpa-blue-black"></div>
-                            <div className="container h-100" data-swiper-parallax="-500">
+
+                            {/* Capa oscura */}
+                            <div className="header-overlay-dark"></div>
+
+                            <div className="container h-100 position-relative" data-swiper-parallax="-500">
                                 <div className="row align-items-center h-100">
                                     <div
                                         className="col-xl-7 col-lg-8 col-md-10 position-relative text-white text-center text-md-start"
                                         data-anime='{ "el": "childs", "translateX": [100, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'
                                     >
-                                        <div>
-                                            <span className="fs-20 opacity-6 mb-25px sm-mb-15px d-inline-block fw-300 ">
-                                                Soluciones digitales a la medida de tu negocio
-                                            </span>
-                                        </div>
+                                        <span className="fs-20  mb-25px sm-mb-15px d-inline-block fw-300">
+                                            Soluciones digitales a la medida de tu negocio
+                                        </span>
 
                                         <h1 className="alt-font w-90 xl-w-100 text-shadow-double-large ls-minus-2px">
                                             Impulsa tu presencia online con <span className="fw-600">Ares Code.</span>
                                         </h1>
 
-                                        
                                     </div>
                                 </div>
 
-                                <div
-                                    className="position-absolute bottom-minus-45px"
-                                    data-anime='{ "translateY": [150, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'
-                                >
+                                <div className="position-absolute bottom-minus-45px">
                                     <span className="alt-font number text-base-color opacity-3 fs-190 fw-600 ls-minus-5px">
                                         01
                                     </span>
@@ -58,40 +55,37 @@ export default function Header() {
                             className="cover-background position-absolute top-0 start-0 w-100 h-100"
                             data-swiper-parallax="500"
                             style={{
-                                backgroundImage: "url('https://placehold.co/1920x1100')",
+                                backgroundImage: "url('/images/header2.webp')",
                                 backgroundSize: "cover",
                                 backgroundPosition: "center",
                                 backgroundRepeat: "no-repeat"
                             }}
                         >
-                            <div className="opacity-light bg-gradient-sherpa-blue-black"></div>
-                            <div className="container h-100" data-swiper-parallax="-500">
+
+                            {/* Capa oscura */}
+                            <div className="header-overlay-dark"></div>
+
+                            <div className="container h-100 position-relative" data-swiper-parallax="-500">
                                 <div className="row align-items-center h-100">
                                     <div
                                         className="col-xl-7 col-lg-8 col-md-10 position-relative text-white text-center text-md-start"
                                         data-anime='{ "el": "childs", "translateX": [100, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'
                                     >
-                                        <div>
-                                            <span className="fs-20 opacity-6 mb-25px sm-mb-15px d-inline-block fw-300">
-                                                Creamos experiencias digitales modernas y atractivas
-                                            </span>
-                                        </div>
+                                        <span className="fs-20  mb-25px sm-mb-15px d-inline-block fw-300">
+                                            Creamos experiencias digitales modernas y atractivas
+                                        </span>
 
                                         <h1 className="alt-font w-90 xl-w-100 text-shadow-double-large ls-minus-2px">
                                             Diseño web responsivo para la <span className="fw-600">nueva era digital.</span>
                                         </h1>
 
-                                       
                                     </div>
+                                </div>
 
-                                    <div
-                                        className="position-absolute bottom-minus-45px"
-                                        data-anime='{ "translateY": [150, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'
-                                    >
-                                        <span className="alt-font number text-base-color opacity-3 fs-190 fw-600 ls-minus-5px">
-                                            02
-                                        </span>
-                                    </div>
+                                <div className="position-absolute bottom-minus-45px">
+                                    <span className="alt-font number text-base-color opacity-3 fs-190 fw-600 ls-minus-5px">
+                                        02
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -103,40 +97,37 @@ export default function Header() {
                             className="cover-background position-absolute top-0 start-0 w-100 h-100"
                             data-swiper-parallax="500"
                             style={{
-                                backgroundImage: "url('https://placehold.co/1920x1100')",
+                                backgroundImage: "url('/images/header3.webp')",
                                 backgroundSize: "cover",
                                 backgroundPosition: "center",
                                 backgroundRepeat: "no-repeat"
                             }}
                         >
-                            <div className="opacity-light bg-gradient-sherpa-blue-black"></div>
-                            <div className="container h-100" data-swiper-parallax="-500">
+
+                            {/* Capa oscura */}
+                            <div className="header-overlay-dark"></div>
+
+                            <div className="container h-100 position-relative" data-swiper-parallax="-500">
                                 <div className="row align-items-center h-100">
                                     <div
                                         className="col-xl-7 col-lg-8 col-md-10 position-relative text-white text-center text-md-start"
                                         data-anime='{ "el": "childs", "translateX": [100, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'
                                     >
-                                        <div>
-                                            <span className="fs-20 opacity-6 mb-25px sm-mb-15px d-inline-block fw-300">
-                                                Tecnología, estrategia e innovación para tu proyecto
-                                            </span>
-                                        </div>
+                                        <span className="fs-20  mb-25px sm-mb-15px d-inline-block fw-300">
+                                            Tecnología, estrategia e innovación para tu proyecto
+                                        </span>
 
                                         <h1 className="alt-font w-90 xl-w-100 text-shadow-double-large ls-minus-2px">
                                             Desarrollo web inteligente para <span className="fw-600">todas las empresas.</span>
                                         </h1>
 
-                                       
                                     </div>
+                                </div>
 
-                                    <div
-                                        className="position-absolute bottom-minus-45px"
-                                        data-anime='{ "translateY": [150, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'
-                                    >
-                                        <span className="alt-font number text-base-color opacity-3 fs-190 fw-600 ls-minus-5px">
-                                            03
-                                        </span>
-                                    </div>
+                                <div className="position-absolute bottom-minus-45px">
+                                    <span className="alt-font number text-base-color opacity-3 fs-190 fw-600 ls-minus-5px">
+                                        03
+                                    </span>
                                 </div>
                             </div>
                         </div>
