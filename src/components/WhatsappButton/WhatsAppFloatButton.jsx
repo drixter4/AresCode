@@ -1,21 +1,13 @@
-import React from "react";
-import "./WhatsAppFloatButton.css";
-
 export default function WhatsAppFloatButton() {
-  const phoneNumber = "523111929513"; // Cambia a tu número real de WhatsApp
-  const message = encodeURIComponent(
-    "Hola, estoy interesado en desarrollar un sitio web para mi negocio. ¿Podrían brindarme más información?"
-  );
-
   return (
     <a
-      href={`https://wa.me/${phoneNumber}?text=${message}`}
-      className="whatsapp-float"
+      href="https://wa.me/523322334834"
       target="_blank"
       rel="noopener noreferrer"
+      className="fixed bottom-6 right-6 z-40 bg-green-500 text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform flex items-center justify-center"
       aria-label="Chatea con nosotros por WhatsApp"
     >
-      <i className="bi bi-whatsapp"></i>
+      <img src="/assets/whatsapp.webp" alt="WhatsApp Ares Code" className="w-8 h-8 object-contain drop-shadow-lg" />
     </a>
   );
 }
